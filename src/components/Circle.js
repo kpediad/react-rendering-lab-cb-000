@@ -5,7 +5,7 @@ class Circle extends React.Component {
   shouldComponentUpdate() {
       return (this.props.color !== nextProps.color);
   }
-  
+
   render() {
     const { color } = this.props;
     console.log(`A ${color} circle was rendered!`);
