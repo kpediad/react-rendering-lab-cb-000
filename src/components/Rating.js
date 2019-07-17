@@ -15,7 +15,7 @@ class Rating extends React.Component {
     this.setState({
       increasing: nextProps.rating > this.props.rating,
       decreasing: nextProps.rating < this.props.rating
-    })    
+    })
   }
 
   render() {
